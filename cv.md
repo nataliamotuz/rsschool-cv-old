@@ -46,3 +46,6 @@ module.exports = function solveEquation(equation) {
 
 ## English skills
 I have successfully completed a 160-hours General English course at the **Intermediate level** in Streamline Language School.
+
+[![github account](assets/hub.png)](https://github.com/nataliamotuz)
+
