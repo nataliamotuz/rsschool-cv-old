@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,50 +8,87 @@
     <link rel="stylesheet" href="style.css">
     <title>Natallia Motuz's CV</title>
 </head>
+
 <body>
-    Natallia Motuz
-Junior Software Engineer
+    <div>
+        <h1>Natallia Motuz</h1>
+        <h2>Junior Software Engineer</h2>
+    </div>
+    <div>
+        <h3>I'm Natallia Motuz</h3>
+        <h4>Junior Software Engineer</h4>
+        <img src="./assets/nm.jpg" alt="Natallia Motuz">
+        <dl>
+            <dt>Adress:
+            <dd>Minsk, Belarus </dd>
+            </dt>
+            <dt>Email:
+            <dd>natalia.motuz@gmail.com </dd>
+            </dt>
+            <dt>Phone:
+            <dd>+375 29 3965969 </dd>
+            </dt>
+            <dt>Skype:
+            <dd>ahienczyk</dd>
+            </dt>
+        </dl>
+    </div>
+    <div>
+      <h3>Summary of Qualifications</h3>
+      <p>I am in the earlier stage of my journey as a software developer, have a small yet delightful portfolio of
+        launched projects, and I’am hungry to learn more.</p>
+    </div>
+    <div><h3>Technical skills</h3>
+        <ul>
+            <li>HTML - 5/10</li>
+            <li>CSS - 4/10</li>
+            <li>JavaScript - 2/10</li>
+            <li>ReactJS - 1/10</li>
+        </ul>
+        <p>As a junior developer, I am able to craft clean and correct code with some supervision and guidance. Also I can
+        execute on well specified or documented tasks by breaking them down into reasonable subtasks, and complete
+        them.</p>
+    </div>
 
-Adress: Minsk, Belarus 
-Email: natalia.motuz@gmail.com 
-Phone: +375 29 3965969 
-Skype: ahienczyk
+    <div><h3>Code Example</h3>
+        module.exports = function solveEquation(equation) {
+        const parsedEquation = equation.split(' ');
+        const op1 = parsedEquation[3];
+        const op2 = parsedEquation[7];
+        const a = parsedEquation[0];
+        const b = parsedEquation[4] * (op1 === '-' ? - 1 :1 );
+        const c = parsedEquation[8] * (op2 === '-' ? - 1 :1 );
+        const D = Math.sqrt(b * b - 4 * a * c);
+        const x1 = Math.round((-b + D) / (2 * a));
+        const x2 = Math.round((-b - D) / (2 * a));
 
-Summary of Qualifications
-I am in the earlier stage of my journey as a software developer, have a small yet delightful portfolio of launched projects, and I’am hungry to learn more.
+        return [x1, x2].sort(function (a, b) {return a - b};
+        };
+    </div>
 
-Technical skills
-HTML - 5/10
-CSS - 4/10
-JavaScript - 2/10
-ReactJS - 1/10
-As a junior developer, I am able to craft clean and correct code with some supervision and guidance. Also I can execute on well specified or documented tasks by breaking them down into reasonable subtasks, and complete them.
 
-Code Example
-module.exports = function solveEquation(equation) {
-    const parsedEquation = equation.split(' ');
-    const op1 = parsedEquation[3];
-    const op2 = parsedEquation[7]; 
-    const a = parsedEquation[0];
-    const b = parsedEquation[4] * (op1 === '-' ? - 1 :1 );
-    const c = parsedEquation[8] * (op2 === '-' ? - 1 :1 );
-    const D = Math.sqrt(b * b - 4 * a * c);
-    const x1 = Math.round((-b + D) / (2 * a));
-    const x2 = Math.round((-b - D) / (2 * a));
-  
-    return [x1, x2].sort(function (a, b) {return a - b};
-};
-Education
-2008-2010 MA in Belarusian Linguistics, University of Warsaw, Poland
-2008-2010 BA in Visual Cultural Studies, University of Warsaw, Poland
-2003-2006 Belarusian State Pedagogical University, Belarusian Linguistics
 
-Informal Education
-Basics of Computer Science, IT-Academy, 2017
+    <div>
+      <h3>Education</h3>
+      <p>2008-2010 MA in Belarusian Linguistics, University of Warsaw, Poland
+        2008-2010 BA in Visual Cultural Studies, University of Warsaw, Poland
+        2003-2006 Belarusian State Pedagogical University, Belarusian Linguistics
+      </p>
+    </div>
 
-Online courses: Basic course in Java programming, The Basics of Object Oriented Programming, Database, Regular expressions.
+    <div>
+      <h3>Informal Education</h3>
+      <p>Basics of Computer Science, IT-Academy, 2017
+        Online courses: Basic course in Java programming, The Basics of Object Oriented Programming, Database, Regular
+        expressions.
+      </p>
+    </div>
 
-English skills
-I have successfully completed a 160-hours General English course at the Intermediate level in Streamline Language School.
+
+    <div>
+      <h3>English skills</h3>
+      <p>I have successfully completed a 160-hours General English course at the Intermediate level in Streamline Language School.</p>
+    </div>
 </body>
+
 </html>
