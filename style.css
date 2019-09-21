@@ -1,62 +1,73 @@
 body {
     width: 1024px;
     margin: 0 auto;
-}
-
-.header {
+  }
+  
+  .header {
     background-color: #5F9EA0;
     color: #FFFFFF;
     height: 200px;
     padding-left: 15px;
     padding-top: 5px;
-}
-.contact {
+  }
+  .contact {
     position: relative;
     height: 250px;
     top: -70px;
     left: 50px;
     background: #FFFFFF;
     width: 914px;
-}
-.image {
-  height: 250px;
-  width: 250px; 
-}
-.wrapper {
+  }
+  .image {
+    height: 250px;
+    width: 250px; 
+  }
+  .wrapper {
     display: inline-block;
     background: #FFFFFF;
     width: 600px;
     float: right;
-}
-.contact-list {
-    list-style-type: none;
   }
-
-.subtitle {
+  .contact-list {
+    list-style-type: none;
+    }
+  
+  .subtitle {
     text-align: center;
     text-transform: uppercase;
     color: #5F9EA0;
     font-size: 20px;
-}
-.content-block {
-    margin: 0 auto;
-    width: 850px;
-    background-color: white;
-}
-.container {
+  }
+  .container {
     background: #D3D3D3;
-}
-.english, .informal {
+  }
+  .skills li{
+    list-style-type: none;
+    padding: 5px;
+    color: #5F9EA0;
+  }
+  .info-block {
+    display: flex;
+    width: 850px;
+    margin: 0 auto;
+    background-color: white;
     padding: 30px;
-    text-align: center;
-}
-.education {
-    padding: 30px;
-}
-.skills {
-    padding: 30px;
-}
-.summary {
-    padding: 30px 30px;
     font-size: 18px;
-}
+  }
+  p.skills {
+    width: 425px;
+  }
+  ul.skills li span {
+    width: 80px;
+    display: inline-block;
+  }
+  ul.skills progress {
+    display: inline-block;
+    width: 250px;
+  }
+  ul.education {
+    padding-left: 150px;
+  }
+  .top-title {
+    margin-top: -50px;
+  }
