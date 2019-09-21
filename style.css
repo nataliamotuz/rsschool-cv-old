@@ -48,7 +48,7 @@ body {
   }
   .info-block {
     display: flex;
-    width: 850px;
+    width: 800px;
     margin: 0 auto;
     background-color: white;
     padding: 30px;
@@ -70,4 +70,9 @@ body {
   }
   .top-title {
     margin-top: -50px;
+  }
+  pre {
+    width: 850px;
+    margin: 0 auto;
+    font-size: 18px;
   }
