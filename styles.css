@@ -1,0 +1,120 @@
+body {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #5F9EA0;
+    color: #FFFFFF;
+    height: 200px;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+  h1, h2 {
+    margin: 5px 0 3px 0;
+  }
+  .contact {
+    position: relative;
+    height: 250px;
+    top: -70px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    width: 850px;
+  }
+  .wrapper {
+    background: #FFFFFF;
+    width: 525px;
+    float: right;
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .contact-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+  
+  .subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #5F9EA0;
+    font-size: 20px;
+  }
+  main {
+    background: #D3D3D3;
+    padding-bottom: 30px;
+  }
+  .skills li{
+    list-style-type: none;
+    padding: 5px;
+    color: #5F9EA0;
+  }
+  .info-block {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    font-size: 18px;
+  }
+  p.skills {
+    width: 425px;
+  }
+  ul.skills li span {
+    width: 80px;
+    display: inline-block;
+  }
+  ul.skills progress {
+    display: inline-block;
+    width: 250px;
+  }
+  ul.education {
+    padding-left: 150px;
+  }
+  .top-title {
+    margin-top: -4px;
+  }
+  pre {
+    width: 850px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  .social-networks {
+    padding: 0;
+    margin: 10px 0 0;
+    display: inline-block;
+    
+  }
+  .social-networks li {
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .social-networks a {
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+  .name span {
+    color: #5F9EA0;
+    font-size: 26px;
+  }
+  .name {
+    margin: 20px 0 2px 0;
+  }
+  .profession {
+    margin: 2px 0 10px 0;
+    color: #ccc;
+  }
+  footer {
+    background-color: #5F9EA0;
+    color: #FFFFFF;
+    height: 35px;
+    padding-left: 15px;
+    padding-top: 20px;
+  }
